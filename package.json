@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A compound interest calculator built with Next.js and React",
+  "main": "layout.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"No tests configured\" && exit 1",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ans220401/compound-interest-calculator.git"
+  },
+  "keywords": ["nextjs", "react", "compound-interest", "finance"],
+  "author": "Amnon Sadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ans220401/compound-interest-calculator/issues"
+  },
+  "homepage": "https://github.com/ans220401/compound-interest-calculator#readme",
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
